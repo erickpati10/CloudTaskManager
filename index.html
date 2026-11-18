@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cloud Task Manager</h1>
+      <p>Manage your tasks using Firebase Firestore</p>
+
+      <form id="taskForm">
+        <h2>Add New Task</h2>
+
+        <label for="taskTitle">Task Title</label>
+        <input type="text" id="taskTitle" required />
+
+        <label for="taskDescription">Description</label>
+        <textarea id="taskDescription"></textarea>
+
+        <label for="taskDate">Due Date</label>
+        <input type="date" id="taskDate" />
+
+        <label for="taskStatus">Status</label>
+        <select id="taskStatus">
+          <option value="Pending">Pending</option>
+          <option value="Completed">Completed</option>
+        </select>
+
+        <button type="submit">Add Task</button>
+      </form>
+
+      <h2>My Tasks</h2>
+      <div id="taskList">
+        <p>No tasks available.</p>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
