@@ -8,7 +8,7 @@ To use the application, open the project with Live Server in Visual Studio Code.
 
 I created this application to improve my understanding of cloud databases and learn how JavaScript communicates with Firebase. I also wanted to practice using asynchronous functions and performing database operations such as creating, reading, updating, and deleting records.
 
-[Software Demo Video](ADD_YOUR_YOUTUBE_LINK_HERE)
+[Software Demo Video](https://youtu.be/Pm2R27Qty3E)
 
 # Cloud Database
 
